@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         var textsCounter = 0
         findViewById<Button>(R.id.buttonId).setOnClickListener {
             textsCounter = if (textsCounter==3) {0} else {textsCounter+1}
-            println("Хотим поменять текст на R.string.text1"+textsCounter)
+            println("Хотим поменять текст на R.string.text"+textsCounter)
             val myTextView = findViewById<View>(R.id.textViewId) as TextView
 
 
