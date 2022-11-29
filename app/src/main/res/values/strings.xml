@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">homework_examples</string>
+
+    <string name="text0">NMedia!</string>
+    <string name="text1">Hi!</string>
+    <string name="text2">Ola!</string>
+    <string name="text3">homework_examples</string>
+
+    <string name="btn1">change my pitch up</string>
+
 </resources>
