@@ -18,10 +18,12 @@ class MainActivity : AppCompatActivity() {
             println("Хотим поменять текст на R.string.text"+textsCounter)
             val myTextView = findViewById<View>(R.id.textViewId) as TextView
 
-
-            myTextView.setText(resources.getString(R.string.text1))
-            //val newText = resources.getString(R.string["text"+textsCounter])  // как взять ресурс по имени ???
+            //val newText = resources.getString(R.string["text"+textsCounter])  // как взять ресурс по имени ??? Использовать МАССИВ строк в res\values !
             //myTextView.setText(newText)
+
+            // можно так:
+            myTextView.setText(resources.getString(R.string.text1))
+            // и можно так:
             myTextView.text = resources.getString(R.string.text2)
         }
 
